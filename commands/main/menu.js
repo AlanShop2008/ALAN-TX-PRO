@@ -1,7 +1,6 @@
-// ALANSHOP menu.js (plantilla original) // Completa este archivo con la
-lógica de tu proyecto.
+import { createMenu } from '../../lib/menu.js'
 
-import os from ‘os’ import { runtime } from ‘../../lib/runtime.js’
+const info = await createMenu(conn, m)
 
 const TAGS = { main: ‘🏠 INFORMACIÓN’, group: ‘👥 GRUPOS’, downloader:
 ‘📥 DESCARGAS’, freefire: ‘🎮 FREE FIRE’, tools: ‘🛠️ HERRAMIENTAS’,
